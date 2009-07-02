@@ -6,36 +6,38 @@ Requires at least: 2.8
 Tested up to: 2.8
 Stable tag: trunk
 
-With this Shortcode you are able to easily add a twitter optimized URL to your blog posts, so your readers do not have to create it on their own.
+This plugin automatically generates a Short URL for your article. You can choose your favorite provider and get multiple options.
 
 == Description ==
 
 With this Shortcode-Plugin you **optimize your workflow** as it enables you to auto-generate a shortened URL to your blog posts. So neither you nor your readers have to do it. These Short URLs are particular useful for twitter and alike as these services limit the messages of their users to a certain amount of characters - which leads to the situation that their users are forced to have an eye on what exactly they want to write. And by providing a very short URL it's easier for them to spread the word on your blog article as they have more characters left for personal remarks.
 
-Compared to other solutions **this plugin caches the generated shortened URL** - this makes it faster. If the permalink of the article changes, a new Short URL will be automatically generated. 
+Compared to other solutions **this plugin caches the generated shortened URL** - this makes it faster. If the permalink of the article changes, a new Short URL will be automatically generated. It also allows you to choose your favorite from a couple of Short URL Providers.
 
 
 = Usage: =
 
 * Place `[shorturl]` in your article where you want to display the shortened url.
 * Add optional info with parameters (see below)
+* If you don't like shortcodes you can use the complete auto mode - that way the shortened URL gets always auto-added at the end of your articles.
 
 
 = Features: =
 
-* Automatic generation of a Short URL to the blog post
-* **Caches the Short URL** - So it's only generated once
-* Uses "u.nu" as provider with the **shortest URLs on the net**
-* Provides optional parameters to further increase workflow
+* Automatic generation of a Short URL to the blog post.
+* **Caches the Short URL** - So it's only generated once.
+* Offers 5 different URL Shorteners to choose from (bit.ly, is.gd, u.nu, snurl.com, tinyurl.com).
+* Provides optional parameters to further increase workflow.
+* Can add self-defined labels in front (or around) the URL(s).
 
 
 = Options: =
 **Possible values are "1" for active and "0" for disabled**
 
-* txt => Will add a label in front of the URL(s) (default: 0)
-* full => The permalink will also be displayed (default: 0)
-* link => Displays the URL(s) as HTML link (default: 0)
-* short => Displays the Short URL (default: 1)
+* txt => Will add a label in front of the URL(s) (default: 0).
+* full => The permalink will also be displayed (default: 0).
+* link => Displays the URL(s) as HTML link (default: 0).
+* short => Displays the Short URL (default: 1).
 
 = Additional info =
 
@@ -50,20 +52,21 @@ There is also a [german version of the plugins page](http://hjacob.com/blog/2009
 1. Upload the shorturl.php into your “wp-content/plugins” folder of your blog
 1. Activate the shortcode in your Wordpress-Admin Plugins page
 1. Start using the shortcode in your articles where ever you like
+1. If you like you can optimize the settings in the "Short URL" Settings-Page.
 
 == Frequently Asked Questions ==
 
 = Do I need to set any parameters? =
 
-Nope, you can use simply [shorturl] to insert just the short url.
+Nope, you can simply use [shorturl] to insert just the short url.
 
-= Does the order of the options matter? =
+= Does the order of the parameters matter? =
 
 Nope, you can use the optional parameters in any order - just like for all shortcodes.
 
 = The labels added by the parameter "txt" suck, what can I do? =
 
-The plugin doesn't offer a settings page yet, so if you have an HTML editor you can open the "shorturl.php" (in your wp plugin folder) and search for "Short URL for this post: " and replace it with what ever you like. Please make sure that it's still surrounded with quotation marks, otherwise the code gets broken :).
+You can define the labels in the "Short URL" Settings page, which can be found in the "Settings Box" in your Wordpress Admin Interface. 
 
 = What is that "short" option for? =
 
@@ -75,9 +78,18 @@ Spread the word and maybe write an blog post on this plugin with a link to the o
 
 == Screenshots ==
 
-1. An example output of the plugin
+1. The Settings-Panel of this plugin
+2. An example output of this plugin
 
 == Changelog ==
+
+= 1.0 =
+* A Settings Page is added.
+* Support for 5 different URL Shortener Services (is.gd, bit.ly, u.nu, snurl.com, tinyurl.com).
+* Auto-Add functionality (optional!) - no need to write the shortcode by hand anymore.
+* Auto added Short URLs support HTML code, so you can tweak their appearance with CSS classes and more.
+* The Labels added by the "txt" parameter are now editable.
+* A "Reset Settings" function, which removes Settings and URL Caches from posts.
 
 = 0.1 =
 * Inital release.
