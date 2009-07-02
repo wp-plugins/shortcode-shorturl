@@ -251,13 +251,13 @@ function jhm_shorturl_settings_link() {
 function jhm_shorturl_auto_check($content) {
 	# Check if auto-insert has been activated and if so -> insert content
 	
-	if(!is_single()) { echo($content); return; }
+	if(!is_single()) { echo(do_shortcode($content)); return; }
 	
 	$_s = jhm_shorturl_settings_load();
 	if(!empty($_s["auto"])) {
 		$content = $content . str_replace("\'", "'", str_replace('\"',"'", do_shortcode($_s["auto"])));
 	} 
-	echo($content);
+	echo(do_shortcode($content));
 }
 
 
