@@ -2,17 +2,16 @@
 Contributors: jhm
 Donate link: http://hjacob.com/blog/2009/06/short_url_shortcode_wordpress/#donate
 Tags: twitter, short-url, shortcode, url-shortener
-Requires at least: 2.8
-Tested up to: 2.8
+Requires at least: 2.5
 Stable tag: trunk
 
 This plugin automatically generates a Short URL for your article. You can choose your favorite provider and get multiple options.
 
 == Description ==
 
-With this Shortcode-Plugin you **optimize your workflow** as it enables you to auto-generate a shortened URL to your blog posts. So neither you nor your readers have to do it. These Short URLs are particular useful for twitter and alike as these services limit the messages of their users to a certain amount of characters - which leads to the situation that their users are forced to have an eye on what exactly they want to write. And by providing a very short URL it's easier for them to spread the word on your blog article as they have more characters left for personal remarks.
+With this Plugin you **optimize your workflow** as it enables you to auto-generate a shortened URL to your blog posts. So neither you nor your readers have to do it. These Short URLs are particular useful for twitter and alike as these services limit the messages of their users to a certain amount of characters - which leads to the situation that their users are forced to have an eye on what exactly they want to write. And by providing a very short URL it's easier for them to spread the word on your blog article as they have more characters left for personal remarks.
 
-Compared to other solutions **this plugin caches the generated shortened URL** - this makes it faster. If the permalink of the article changes, a new Short URL will be automatically generated. It also allows you to choose your favorite from a couple of Short URL Providers.
+Compared to other solutions **this plugin caches the generated shortened URL** - this makes it faster. If the permalink of the article changes, a new Short URL will be automatically generated. It also allows you to choose your favorite from a couple of Short URL Providers and lets you insert the shortened URL via a handy shortcode.
 
 
 = Usage: =
@@ -50,7 +49,7 @@ There is also a [german version of the plugins page](http://hjacob.com/blog/2009
 
 1. Download the Plugin
 1. Upload the shorturl.php into your “wp-content/plugins” folder of your blog
-1. Activate the shortcode in your Wordpress-Admin Plugins page
+1. Activate the plugin ("Automatic Short URL") in your Wordpress-Admin Plugins page
 1. Start using the shortcode in your articles where ever you like
 1. If you like you can optimize the settings in the "Short URL" Settings-Page.
 
