@@ -25,7 +25,7 @@ Compared to other solutions **this plugin caches the generated shortened URL** -
 
 * Automatic generation of a Short URL to the blog post.
 * **Caches the Short URL** - So it's only generated once.
-* Offers 5 different URL Shorteners to choose from (bit.ly, is.gd, u.nu, snurl.com, tinyurl.com).
+* Offers 6 different URL Shorteners to choose from (bit.ly, tr.im, is.gd, u.nu, snurl.com, tinyurl.com).
 * Provides optional parameters to further increase workflow.
 * Can add self-defined labels in front (or around) the URL(s).
 
@@ -82,9 +82,12 @@ Spread the word and maybe write an blog post on this plugin with a link to the o
 
 == Changelog ==
 
+= 1.1 = 
+* Short URL Provider "tr.im" has been added 
+
 = 1.0 =
 * A Settings Page is added.
-* Support for 5 different URL Shortener Services (is.gd, bit.ly, u.nu, snurl.com, tinyurl.com).
+* Support for 6 different URL Shortener Services (tr.im, is.gd, bit.ly, u.nu, snurl.com, tinyurl.com).
 * Auto-Add functionality (optional!) - no need to write the shortcode by hand anymore.
 * Auto added Short URLs support HTML code, so you can tweak their appearance with CSS classes and more.
 * The Labels added by the "txt" parameter are now editable.
