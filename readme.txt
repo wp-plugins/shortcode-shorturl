@@ -82,6 +82,11 @@ Spread the word and maybe write an blog post on this plugin with a link to the o
 
 == Changelog ==
 
+= 1.1.1 = 
+* Store Settings Bug (unknown action "empty2zero") solved
+* The "pretty" permalink is now used
+* From now on Short URLs get generated after the post is published, this way the URL Shorteners Databases don't get spammed by Draft URLs.
+
 = 1.1 = 
 * Short URL Provider "tr.im" has been added 
 
